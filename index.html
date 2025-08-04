@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>personal portfolio website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/d825affe14.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+        <div class="container">
+        <nav>
+            <img src="S Letter Logo.jpeg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#headder">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm<samp> Shashidhara</samp> <br>M N From Gubbi</h1>
+        </div>
+        </div>
+        </div>
+        <!-----------about-------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                    <img src="photo5.jpg">    
+                    
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>My  name  is  Shashidhara  M  N  , I  am  student  at  SSIT,  My  village  name  is  Muddanahalli  ,  which   is   located   in   Tumakuru   districk   and   Gubbi   talok,
+                            Kasaba   hobli ,   Gopalapura   post.
+                            </p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Poster Designing</span><br>communication</li>
+                                <li><span>Programming</span><br>Team leading </li>
+                                <li><span>Problem solving</span><br>web page Designing</li>
+                            </ul>
+                        </div> 
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2025-current</span><br>problem solving Training at SSIT Institute</li>
+                                <li><span>2024</span><br>Hackathon</li>
+                                <li><span>2023</span><br>programmer</li>
+                            </ul>
+                        </div>   
+                        <div class="tab-contents"id="education">
+                            <ul>
+                                <li><span>2025</span><br> pursuing engg degree </li>
+                             <li><span>2023</span><br>12th pass</li>
+                                <li><span>2021</span><br>10th pass</li>
+                            </ul>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-----------sevices---->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div> 
+                <i class="fa-solid fa-code"></i>
+                <h2>web degin</h2>
+                <p>Web design is the process of creating visually appealing and user-friendly websites through layout, colors, fonts, and interactive elements. It combines aesthetics with functionality to enhance user experience and accessibility.
+                </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Poster designing</h2>
+                    <p>Poster design combines visuals and typography to create eye-catching and informative displays. It communicates messages effectively through colors, layout, and creative elements.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-web-awesome"></i>
+                        <h2>data structure</h2>
+                        <p>A data structure is a way of organizing and storing data efficiently for processing and retrieval. Common types include arrays, linked lists, stacks, queues, trees, and graphs, each serving different computational needs.
+                        </p>
+                            <a href="#">Learn more</a>
+                        </div>
+        </div>
+    </div>
+</div>
+<!--------porfolio---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="OIP.jpeg">
+                <div class="layer">
+                    <h3>Software Developer</h3>
+                    <p>A software developer designs, builds, and maintains applications or systems to solve problems and enhance user experiences. They use programming languages like Python, Java, or C++ to write efficient and functional code.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-layer-group"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pro.jpeg">
+                <div class="layer">
+                    <h3>Social media</h3>
+                    <p>Social media platforms connect people globally, enabling communication, content sharing, and networking. They influence trends, opinions, and digital interactions in various fields like business, entertainment, and education.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-photo-film"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="sof.jpeg" alt="">
+                <div class="layer">
+                    <h3>Decoder</h3>
+                    <p>A processor, or central processing unit (CPU), is the brain of a computer, handling instructions and performing calculations to execute tasks. It processes data quickly, using cores and clock speed to determine performance efficiency.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-microchip"></i></a>
+                </div>
+            </div>
+        </div>
+       <a href="#" class="btn">See more</a> 
+    </div>
+</div>
+<!-----contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> Shashidharamn8867@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 8867238293</p>
+                <div class="Social-icons">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="Screenshot 2025-04-26 222632.png"downlod class="btn btn2" >Downlod CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright@shashidhara m n.made with<i class="fa-solid fa-heart-pulse"></i>by own</p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+       
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+       var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyY0fRDwoCa4WCo_DUaEMM0SWwkfeCNhl3nG-nWni5D1f7CejG95ANnVjGHTL80ehTf/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
